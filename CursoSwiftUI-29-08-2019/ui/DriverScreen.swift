@@ -18,6 +18,7 @@ struct DriverScreen: View {
             
             Image(uiImage: .hamilton).clipShape(Circle()).background(Circle().foregroundColor(Color.white)).overlay(Circle().stroke(Color.white,lineWidth: 3)).shadow(radius: 18)
                 .offset(x: 0, y: -65)
+                .padding(.bottom,-55)
             
             Text("Luis Hamilton")
             
