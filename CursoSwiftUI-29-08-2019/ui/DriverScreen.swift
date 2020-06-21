@@ -11,9 +11,14 @@ import SwiftUI
 
 struct DriverScreen: View {
     var body: some View {
-        Image(uiImage: .mercedes)
-        .resizable()
-        .frame(height:200)
+        VStack {
+            Image(uiImage: .mercedes)
+            .resizable()
+                .frame(height:200)
+            
+            Image(uiImage: .hamilton)
+            Text("Luis Hamilton")
+        }
         
     }
 }
