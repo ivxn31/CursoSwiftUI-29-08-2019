@@ -18,7 +18,8 @@ struct DriverScreen: View {
             
             Image(uiImage: .hamilton)
             Text("Luis Hamilton")
-        }
+            Spacer()
+        }.edgesIgnoringSafeArea(.top)
         
     }
 }
