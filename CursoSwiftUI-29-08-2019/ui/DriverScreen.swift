@@ -13,11 +13,14 @@ struct DriverScreen: View {
     var body: some View {
         VStack {
             Image(uiImage: .mercedes)
-            .resizable()
+                .resizable()
                 .frame(height:200)
             
-            Image(uiImage: .hamilton)
+            Image(uiImage: .hamilton).clipShape(Circle()).background(Circle().foregroundColor(Color.white)).overlay(Circle().stroke(Color.white,lineWidth: 3)).shadow(radius: 18)
+                .offset(x: 0, y: -65)
+            
             Text("Luis Hamilton")
+            
             Spacer()
         }.edgesIgnoringSafeArea(.top)
         
