@@ -9,14 +9,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DriverScreen: View {
     var body: some View {
-        Text("Hello, World!")
+        Image(uiImage: .mercedes)
+        .resizable()
+        .frame(height:200)
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DriverScreen()
     }
 }
