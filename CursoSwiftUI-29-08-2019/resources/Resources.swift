@@ -101,3 +101,36 @@ extension UIImage{
         }
     }
 }
+
+
+extension UIColor{
+    
+    static var mercedes:UIColor{
+        get{
+            return UIColor(named: "mercedes")!
+        }
+    }
+    static var ferrari:UIColor{
+        get{
+            return UIColor(named: "ferrari")!
+        }
+    }
+    
+    static var redbull:UIColor{
+        get{
+            return UIColor(named: "redbull")!
+        }
+    }
+    
+    static var renault:UIColor{
+        get{
+            return UIColor(named: "renault")!
+        }
+    }
+    
+    static var mclaren:UIColor{
+        get{
+            return UIColor(named: "mclaren")!
+        }
+    }
+}

@@ -15,6 +15,7 @@
 		1DE7365E24A011160014FF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7365C24A011160014FF11 /* LaunchScreen.storyboard */; };
 		1DE7366824A017AD0014FF11 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7366724A017AD0014FF11 /* Resources.swift */; };
 		1DE7366A24A019250014FF11 /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7366924A019250014FF11 /* colors.xcassets */; };
+		1DE7366D24A01A760014FF11 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7366C24A01A760014FF11 /* Driver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1DE7365F24A011160014FF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DE7366724A017AD0014FF11 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		1DE7366924A019250014FF11 /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
+		1DE7366C24A01A760014FF11 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		1DE7365024A011120014FF11 /* CursoSwiftUI-29-08-2019 */ = {
 			isa = PBXGroup;
 			children = (
+				1DE7366B24A01A6B0014FF11 /* models */,
 				1DE7366624A0176D0014FF11 /* ui */,
 				1DE7366524A017560014FF11 /* resources */,
 				1DE7365124A011120014FF11 /* AppDelegate.swift */,
@@ -95,6 +98,14 @@
 				1DE7365C24A011160014FF11 /* LaunchScreen.storyboard */,
 			);
 			path = ui;
+			sourceTree = "<group>";
+		};
+		1DE7366B24A01A6B0014FF11 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7366C24A01A760014FF11 /* Driver.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE7366D24A01A760014FF11 /* Driver.swift in Sources */,
 				1DE7365224A011120014FF11 /* AppDelegate.swift in Sources */,
 				1DE7366824A017AD0014FF11 /* Resources.swift in Sources */,
 				1DE7365424A011120014FF11 /* SceneDelegate.swift in Sources */,
