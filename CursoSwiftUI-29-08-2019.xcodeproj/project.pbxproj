@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DAEBD4524A176460081067F /* StatusSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAEBD4424A176460081067F /* StatusSection.swift */; };
+		1DAEBD4724A17F640081067F /* DriverAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAEBD4624A17F640081067F /* DriverAdapter.swift */; };
 		1DE7365224A011120014FF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7365124A011120014FF11 /* AppDelegate.swift */; };
 		1DE7365424A011120014FF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7365324A011120014FF11 /* SceneDelegate.swift */; };
 		1DE7365624A011120014FF11 /* DriverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7365524A011120014FF11 /* DriverScreen.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		1DAEBD4424A176460081067F /* StatusSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSection.swift; sourceTree = "<group>"; };
+		1DAEBD4624A17F640081067F /* DriverAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAdapter.swift; sourceTree = "<group>"; };
 		1DE7364E24A011120014FF11 /* CursoSwiftUI-29-08-2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CursoSwiftUI-29-08-2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE7365124A011120014FF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE7365324A011120014FF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				1DE7365524A011120014FF11 /* DriverScreen.swift */,
 				1DAEBD4424A176460081067F /* StatusSection.swift */,
 				1DE7365C24A011160014FF11 /* LaunchScreen.storyboard */,
+				1DAEBD4624A17F640081067F /* DriverAdapter.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				1DE7366D24A01A760014FF11 /* Driver.swift in Sources */,
 				1DAEBD4524A176460081067F /* StatusSection.swift in Sources */,
+				1DAEBD4724A17F640081067F /* DriverAdapter.swift in Sources */,
 				1DE7365224A011120014FF11 /* AppDelegate.swift in Sources */,
 				1DE7366824A017AD0014FF11 /* Resources.swift in Sources */,
 				1DE7365424A011120014FF11 /* SceneDelegate.swift in Sources */,

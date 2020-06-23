@@ -22,6 +22,10 @@ struct DriverScreen: View {
             
             Text("Luis Hamilton")
             
+            StatusSection(key: "Edad: ", value: "34")
+            StatusSection(key: "Número: ", value: "44")
+            StatusSection(key: "Origen: ", value: "Reino unido")
+            
             Spacer()
         }.edgesIgnoringSafeArea(.top)
         

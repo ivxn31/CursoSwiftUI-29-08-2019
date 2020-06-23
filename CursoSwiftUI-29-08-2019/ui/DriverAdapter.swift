@@ -11,12 +11,24 @@ import SwiftUI
 
 struct DriverAdapter: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image(uiImage: .hamilton)
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+                .background(Circle()
+                .foregroundColor(Color.red))
+                .padding(.leading,10)
+            
+            Text("Lewis Hamilton")
+                .font(.largeTitle)
+            Spacer()
+        }
     }
 }
 
 struct DriverAdapter_Previews: PreviewProvider {
     static var previews: some View {
-        DriverAdapter()
+        DriverAdapter().previewLayout(.fixed(width: 450, height: 100))
     }
 }
