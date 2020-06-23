@@ -10,14 +10,18 @@
 import SwiftUI
 
 struct StatusSection: View {
+    
+    @State var key:String
+    @State var value:String
+    
     var body: some View {
-        HStack(alignment: .bottom){
-            Text("Edad: ")
+        HStack(alignment: .center){
+            Text(key + ":")
                 .font(.system(size: 35))
                 .fontWeight(.bold)
                 .padding(.leading,40)
             
-            Text("34")
+            Text(value)
                 .font(.system(size: 30))
                 .fontWeight(.ultraLight)
                 .padding(.leading,40)
@@ -29,6 +33,6 @@ struct StatusSection: View {
 
 struct StatusSection_Previews: PreviewProvider {
     static var previews: some View {
-        StatusSection()
+        StatusSection(key: "Edad", value: "34")
     }
 }
