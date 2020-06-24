@@ -20,6 +20,7 @@ struct DriverAdapter: View {
                 .background(Circle()
                 .foregroundColor(Color(driver.team.color)))
                 .padding(.leading,10)
+            .frame(height:95)
             
             Text(driver.name)
                 .font(.largeTitle)
