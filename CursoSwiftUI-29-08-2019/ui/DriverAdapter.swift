@@ -10,17 +10,18 @@
 import SwiftUI
 
 struct DriverAdapter: View {
+    var driver:Driver
     var body: some View {
         HStack{
-            Image(uiImage: .hamilton)
+            Image(uiImage: driver.imageName)
                 .resizable()
                 .scaledToFit()
                 .clipShape(Circle())
                 .background(Circle()
-                .foregroundColor(Color.red))
+                .foregroundColor(Color(driver.team.color)))
                 .padding(.leading,10)
             
-            Text("Lewis Hamilton")
+            Text(driver.name)
                 .font(.largeTitle)
             Spacer()
         }
@@ -29,6 +30,6 @@ struct DriverAdapter: View {
 
 struct DriverAdapter_Previews: PreviewProvider {
     static var previews: some View {
-        DriverAdapter().previewLayout(.fixed(width: 450, height: 100))
+        DriverAdapter(driver: drivers[0]).previewLayout(.fixed(width: 450, height: 100))
     }
 }
