@@ -17,7 +17,7 @@ Del curso [Diseño de apps para iOS 13 con Swift UI desde cero](https://www.udem
 - [Características](#características)
 - [Vista Previa](#vista-previa)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Notas de Desarrollo](#notas-de-desarrollo)
+- [Redes Sociales o formas de contacto](#redes-sociales-o-formas-de-contacto)
 
 ## Instalación
 
